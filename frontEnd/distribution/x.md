@@ -1,3 +1,24 @@
+Feb 25, 2026
+```
+Users crave certainty. 
+
+Agents provide opposite.
+
+Founders define and sovle the mix.
+```
+
+Feb 24, 2026
+```
+Don't build agents to pitch. Build environments.
+
+People don't change. They get influenced.
+```
+
+Feb 22, 2026
+```
+You will become what you award.
+```
+
 Feb 20, 2026
 ```
 Agents as services.

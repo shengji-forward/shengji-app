@@ -1,0 +1,13 @@
+{
+  "schema": {
+    "date": "YYYY-MM-DD",
+    "health_score": "0-100",
+    "learning_score": "0-100",
+    "habit_score": "0-100",
+    "thinking_score": "0-100",
+    "output_score": "0-100",
+    "overall_growth": "0-100",
+    "notes": "string"
+  },
+  "data": []
+}

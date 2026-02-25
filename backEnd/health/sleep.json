@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "date": "YYYY-MM-DD",
+    "bedtime": "HH:MM",
+    "wake_time": "HH:MM",
+    "total_hours": "number",
+    "quality": "1-10",
+    "deep_sleep_hours": "number",
+    "notes": "string"
+  },
+  "data": []
+}

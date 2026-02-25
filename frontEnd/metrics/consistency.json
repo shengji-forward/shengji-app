@@ -1,0 +1,9 @@
+{
+  "schema": {
+    "platform": "x|instagram|youtube|rednote",
+    "date": "YYYY-MM-DD",
+    "posts_count": "number",
+    "streak_days": "number"
+  },
+  "data": []
+}

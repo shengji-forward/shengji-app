@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-25",
+  "tables": {
+    "health": {
+      "exercise": {
+        "date": "YYYY-MM-DD",
+        "type": "string",
+        "duration": "number (minutes)",
+        "notes": "string"
+      },
+      "sleep": {
+        "date": "YYYY-MM-DD",
+        "bedtime": "HH:MM",
+        "wake_time": "HH:MM",
+        "total_hours": "number",
+        "quality": "1-10",
+        "deep_sleep_hours": "number",
+        "notes": "string"
+      },
+      "body_metrics": {
+        "date": "YYYY-MM-DD",
+        "weight": "number (kg)",
+        "body_fat": "number (%)",
+        "muscle_mass": "number (%)",
+        "notes": "string"
+      }
+    },
+    "learning": {
+      "reading": {
+        "date": "YYYY-MM-DD",
+        "title": "string",
+        "author": "string",
+        "pages": "number",
+        "progress": "string",
+        "takeaways": "string"
+      },
+      "courses": {
+        "date": "YYYY-MM-DD",
+        "platform": "string",
+        "course": "string",
+        "progress": "string",
+        "notes": "string"
+      },
+      "research": {
+        "date": "YYYY-MM-DD",
+        "topic": "string",
+        "sources": "string",
+        "findings": "string"
+      }
+    },
+    "habits": {
+      "daily_routine": {
+        "date": "YYYY-MM-DD",
+        "habit": "string",
+        "completed": "boolean",
+        "notes": "string"
+      },
+      "streaks": {
+        "habit": "string",
+        "current_streak": "number",
+        "longest_streak": "number",
+        "total_days": "number",
+        "last_completed": "YYYY-MM-DD"
+      }
+    },
+    "thinking": {
+      "ideas": {
+        "date": "YYYY-MM-DD",
+        "idea": "string",
+        "context": "string",
+        "status": "raw|processing|implemented|archived"
+      },
+      "notes": {
+        "date": "YYYY-MM-DD",
+        "context": "string",
+        "content": "string"
+      },
+      "specs": {
+        "date": "YYYY-MM-DD",
+        "title": "string",
+        "status": "draft|active|completed",
+        "metrics": "array of strings"
+      }
+    }
+  },
+  "frontend": {
+    "engagement": {
+      "platform": "x|instagram|youtube|rednote",
+      "post_id": "string",
+      "date": "YYYY-MM-DD",
+      "metrics": {
+        "likes": "number",
+        "comments": "number",
+        "shares": "number",
+        "views": "number"
+      }
+    },
+    "consistency": {
+      "platform": "x|instagram|youtube|rednote",
+      "date": "YYYY-MM-DD",
+      "posts_count": "number",
+      "streak_days": "number"
+    }
+  }
+}

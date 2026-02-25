@@ -1,0 +1,14 @@
+{
+  "schema": {
+    "platform": "x|instagram|youtube|rednote",
+    "post_id": "unique_identifier",
+    "date": "YYYY-MM-DD",
+    "metrics": {
+      "likes": "number",
+      "comments": "number",
+      "shares": "number",
+      "views": "number"
+    }
+  },
+  "data": []
+}

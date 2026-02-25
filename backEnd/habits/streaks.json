@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "habit": "string",
+    "current_streak": "number",
+    "longest_streak": "number",
+    "total_days": "number",
+    "last_completed": "YYYY-MM-DD"
+  },
+  "data": [
+    {"habit": "Wake up 5AM", "current_streak": 0, "longest_streak": 0, "total_days": 0, "last_completed": null},
+    {"habit": "Exercise", "current_streak": 0, "longest_streak": 0, "total_days": 0, "last_completed": null},
+    {"habit": "Deep work 4h+", "current_streak": 0, "longest_streak": 0, "total_days": 0, "last_completed": null},
+    {"habit": "Reading 30min+", "current_streak": 0, "longest_streak": 0, "total_days": 0, "last_completed": null},
+    {"habit": "Content creation", "current_streak": 0, "longest_streak": 0, "total_days": 0, "last_completed": null}
+  ]
+}
